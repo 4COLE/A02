@@ -1,5 +1,40 @@
 ## A02 IS117 @ NJIT SP24
 
+## PART 0: Install Git
+
+###### Install Git
+- Download the installer from the official Git website (https://git-scm.com/) and follow the installation instructions appropriate for your operating system.
+- After Git is installed you need to configure it with your name and email address. Open the terminal and run the following commands
+```
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+###### Create a Github Account
+- If you haven't already, sign up for a GitHub account at https://github.com/.
+
+###### Create a new Repository
+- Once logged in to GitHub, click on the "+" icon in the top-right corner and select "New repository." Give your repository a name, optionally add a description, choose whether it's public or private, and click on the "Create repository" button.
+
+###### Clone the Repository
+- If you want to work with a repository locally, you will need to clone it. Copy the repository URL from GitHub and run the following command
+```
+git clone <repository_url>
+```
+
+###### Make Changes and Commit
+- Go to the directory where you cloned the rpository. Make changes to the files in your local copy by using your IDE, once done you need to stage them for commit using the '**git add .**' command
+- This stages all changes in  the current direcotry for the next commit. You can also specify individual files instead of using '**.**' to stage all changes.
+- After staging your changes, commit them to your local repository along with a message
+```
+git commit -m "Your commit message here"
+```
+
+###### Push Changes to GitHub
+```
+git push origin master
+```
+
 ## PART 1: How to install and setup WebStorm
 
 - Acquire a free educational license
