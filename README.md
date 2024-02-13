@@ -1,4 +1,4 @@
-#A02 IS117 @ NJIT SP24
+##A02 IS117 @ NJIT SP24
 
 ## PART 1: How to install and setup WebStorm
 
